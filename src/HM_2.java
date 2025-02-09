@@ -8,7 +8,7 @@ public class HM_2 {
         System.out.println(permission(55, -20)); //нельзя
         System.out.println(permission(23, -25)); //нельзя
 
-        System.out.println(permission(generateRandomAge(), 20));
+        System.out.println(permission(generateRandomAge(), 20)); // Тут проблема выходит постоянно результат "Можно идти гулять" но свою очередь генерация работает отлитчно
     }
 
     public static String permission(int humanAge, int outsideTemperature) {
